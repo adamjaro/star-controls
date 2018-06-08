@@ -1,0 +1,20 @@
+List of all python files:
+BBCdemandClass.py
+boardClass.py
+chan.py
+leCroy_com.py
+myApp.py
+onoff.py
+PPHVdemandclass.py
+st.py
+VPDdemandclass.py
+ZDCdemandclass.py
+
+What each python file does:
+  myApp.py
+    Top level, where all other python files are used.  This makes the classes 
+    BBC, PPHV, VPD, and ZDC able to place values.  This also turns the lecroy on
+    and off.
+  chan.py
+    This is where the channels are created, which is then imported into 
+    boardClass.py
